@@ -145,7 +145,7 @@ ul {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.gallery img:hover {
+.gallery img: hover {
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6), 0 0 20px rgba(57, 255, 20, 1);
 }
