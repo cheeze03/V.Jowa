@@ -1,0 +1,212 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #76afb9, #928dab);
+    color: #e0e0e0;
+    overflow-x: hidden;
+}
+
+header {  
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.318);
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+header h1 {
+    background-image: url(images/bmw\ i8.webp);
+    margin:auto;
+    font-size: 2.5rem;
+    color: #0e2686;
+    text-shadow: 0 0 8px #357b6f, 0 0 16px #39fff3
+    background-size: cover; 
+    background-position: center; 
+    height: 85%; 
+    width:  100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+header nav {
+    margin-top: auto; 
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff; 
+    font-size: 1.2rem; 
+    margin: 0 1rem; 
+    text-decoration: none; 
+    transition: color 0.3s ease; /
+}
+
+header nav a:hover {
+    color: #39ff14; 
+}
+
+
+
+header nav {
+    margin-top: auto; 
+    padding: 1rem; 
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+header nav a:hover {
+    color: #39ff14; 
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #190d80;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    text-shadow: 0 0 4px #725514;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+nav a:hover {
+    color: #065f1a;
+    text-shadow: 0 0 8px #1187b6, 0 0 16px #835c09;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    background: rgba(10, 57, 86, 0.774);
+    box-shadow: 0 8px 16px rgba(37, 5, 142, 0.5);
+    border-radius: 10px;
+    color: #e0e0e0;
+    img {
+        width: 650px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 9px 18px rgba(0, 0, 0, 0.5), 0 0 10px rgba(57, 255, 20, 0.8);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+}
+
+h2 {
+    color: #b57e0f;
+    text-shadow: 0 0 6px #036d0f, 0 0 12px #455a0f;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+.gallery {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5), 0 0 10px rgba(57, 255, 20, 0.8);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6), 0 0 20px rgba(57, 255, 20, 1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+form label {
+    font-weight: bold;
+    color: #39ff14;
+    text-shadow: 0 0 4px #39ff14;
+}
+
+form input, form textarea, form button {
+    padding: 0.7rem;
+    border: 1px solid #39ff14;
+    border-radius: 5px;
+    background: rgba(110, 103, 121, 0.656);
+    color: #e0e0e0;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    background: rgba(57, 255, 20, 0.1);
+    border-color: #2b6410;
+    outline: none;
+}
+
+form button {
+    background: linear-gradient(90deg, #263003, #141c7c);
+    color: #d9efdc;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background: linear-gradient(90deg, #1d410c, #316228);
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    color: #8dff57;
+    text-shadow: 0 0 4px #0c4235;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #39ff14;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #8dff57;
+    text-shadow: 0 0 6px #8dff57;
+}
